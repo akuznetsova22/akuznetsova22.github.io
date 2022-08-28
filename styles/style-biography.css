@@ -1,3 +1,44 @@
+/*Mobile Phone*/
+@media only screen and (min-device-width:320px) and (max-device-width:480px){
+    html{
+        font-size:0.5rem;
+        margin:0;
+        padding:0;
+    }
+    section{
+        margin:0;
+        padding:0;
+    }
+    section{
+        height:300px;
+        margin:0;
+        padding:0;
+    }
+    section li{
+        padding:0;
+        margin:0;
+    }
+    section ul{
+        margin-left: 0;
+    }
+    section p{
+        padding:0;
+        margin:0;
+    }
+    section.current-state{
+        height:200px;
+    }
+    .current-state{
+        margin-top:0;
+        padding:0;
+    }
+    .current-state img{
+        margin-top:6rem;
+        width:30%;
+        height:40%;
+    }
+
+}
 @font-face {
     font-family: "aboreto";
     src: url(../fonts/Aboreto/Aboreto-Regular.ttf);
