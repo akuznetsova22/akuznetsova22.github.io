@@ -8,12 +8,12 @@
 
     section.gallery{
         padding:0;
-        margin:1rem;
+        margin:0;
         height:400px;
     }
     figure{
-        padding:1rem;
-        margin:1rem;
+        padding:0;
+        margin:0;
         height:100px;
     }
     img{
@@ -23,6 +23,7 @@
         max-height:80%;
 
     }
+ 
     }
 @font-face {
     font-family: "aboreto";
