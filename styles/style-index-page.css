@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "aboreto";
+    src: url(../fonts/Aboreto/Aboreto-Regular.ttf);
+}
+html{
+    margin:2em;
+    font-family: "aboreto", helvetica, sans-serif;
+}
+body{
+    background-color: beige;
+}
+nav{
+    padding-right:3em;
+    padding-bottom: 3rem;
+}
+header{
+    margin-top:3em;
+    margin-bottom:5em;
+    text-align:center;
+}
+nav ul{
+    justify-content: space-evenly;
+    align-self: center;
+}
+ul{ 
+    list-style: none;
+    display:flex;
+}
+nav a:link{
+    color:black;
+    font-size:1.3rem;
+}
+main{
+    margin: 1em 7em 1em 7em;
+    padding:3em;
+    display:flex;
+    height:60%;
+    background-color: rgb(183, 198, 198);
+
+}
+main img{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    flex:1 1 auto;
+    max-width: 50%;
+}
+.welcome-msg {
+    flex:2;
+    padding-left: 2rem;
+    padding-right: 3rem;
+}
+.welcome-msg h2{
+    padding-bottom: 2rem;
+}
+.contacts{
+    padding-top:3rem;
+    padding-left:7em;
+}
+.contacts a:link{
+    color:black;
+}
+.contacts ul{
+    padding-top:1rem;
+    padding-left:0rem;
+    justify-content: flex-start;
+}
+.contacts li{
+    padding-right:3rem;
+}
+footer{
+    padding-top:1rem;
+    padding-left:7rem;
+}

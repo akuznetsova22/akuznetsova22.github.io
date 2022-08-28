@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "aboreto";
+    src: url(../fonts/Aboreto/Aboreto-Regular.ttf);
+}
+html{
+    margin:2em;
+    font-family: "aboreto", helvetica, sans-serif;
+}
+body{
+    background-color: beige;
+    padding:4em;
+}
+nav{
+    padding-bottom: 3rem;
+}
+header{
+    margin-top:3em;
+    margin-bottom:5em;
+    text-align:center;
+}
+ul{ 
+    list-style: none;
+    display:flex;
+}
+.gallery{
+    padding:3em;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height:200vh;
+    background-color: rgb(183, 198, 198);
+}
+footer{
+    padding-top:1rem;
+    padding-left:0;
+}
+img{
+    max-width:100%;
+    width:100vw;
+    height:40vh;
+}
