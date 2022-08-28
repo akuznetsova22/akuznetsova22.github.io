@@ -6,22 +6,33 @@ html{
     margin:2em;
     font-family: "aboreto", helvetica, sans-serif;
 }
+
 body{
     background-color: beige;
     padding:4em;
 }
+
+/* Navigation bar styling*/
+
 nav{
     padding-bottom: 3rem;
 }
+
+ul{ 
+    list-style: none;
+    display:flex;
+}
+
+/* Header styling*/
+
 header{
     margin-top:3em;
     margin-bottom:5em;
     text-align:center;
 }
-ul{ 
-    list-style: none;
-    display:flex;
-}
+
+/* Gallery styling*/
+
 .gallery{
     padding:3em;
     display:grid;
@@ -30,12 +41,16 @@ ul{
     height:200vh;
     background-color: rgb(183, 198, 198);
 }
-footer{
-    padding-top:1rem;
-    padding-left:0;
-}
+
 img{
     max-width:100%;
     width:100vw;
     height:40vh;
+}
+
+/* Footer styling*/
+
+footer{
+    padding-top:1rem;
+    padding-left:0;
 }

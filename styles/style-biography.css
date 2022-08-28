@@ -6,36 +6,48 @@ html{
     margin:2em;
     font-family: "aboreto", helvetica, sans-serif;
 }
+
 body{
     background-color: beige;
 }
+
+/* Navigation bar styling*/
+
 nav{
     margin-left:7em;
     margin-top:4em;
     padding-bottom: 3rem;
 }
+
+nav a:link{
+    color:black;
+    font-size:1rem;
+}
+
+/* Header styling*/
+
 header{
     margin-top:3em;
     margin-bottom:5em;
     text-align:center;
 }
-nav a:link{
-    color:black;
-    font-size:1rem;
-}
+
+/* main section styling*/
+
 section{
     margin: 1em 7em 1em 7em;
     padding:3em;
     background-color: rgb(183, 198, 198);
 }
+
 .current-state{
     margin: 1em 7em 1em 7em;
     padding:3em;
     display:flex;
     height:60vh;
     background-color: rgb(183, 198, 198);
-
 }
+
 .current-state img{
     padding-top: 1rem;
     flex:1;
@@ -45,14 +57,22 @@ section{
     flex:2;
     padding-left: 1rem;
     padding-right: 3rem;
+    padding-top: 7rem;
 }
+
+/* biography styling*/
+
 .bio li{
     padding-top: 1rem;
     padding-bottom:1rem;
 }
+
 .bio p{
     font-style: italic;
 }
+
+/* Footer styling*/
+
 footer{
     padding-top:1rem;
     padding-left:7rem;
