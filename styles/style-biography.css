@@ -45,7 +45,7 @@ section{
     padding:3em;
     display:flex;
     height:60vh;
-    background-color: rgb(183, 198, 198);
+    background-color: rgb(183, 198, 198,1);
 }
 
 .current-state img{
